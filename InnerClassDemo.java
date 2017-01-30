@@ -3,7 +3,6 @@ class Outer {
 
     void show() {
         System.out.println("Value of a: "+ a);
-        Inner obj = new Inner();
         System.out.println("Value of b: "+ obj.b); 
     }
     class Inner {
